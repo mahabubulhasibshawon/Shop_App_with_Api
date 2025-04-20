@@ -61,10 +61,6 @@ lib/
 ├── product_category_screen.dart # Displays product categories
 ```
 
-## Screenshots
-
-_Add screenshots of your app here._
-
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
