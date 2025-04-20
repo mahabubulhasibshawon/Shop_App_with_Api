@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_test_remote/product_category_screen.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
@@ -59,7 +60,15 @@ class _ProductListScreenState extends State<ProductListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(onPressed: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => ProductListScreen()));
+        }, icon: Icon(Icons.highlight_remove)),
         title: const Text('Product List'),
+        actions: [
+          IconButton(onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) => ProductCategoryScreen()));
+          }, icon: Icon(Icons.menu))
+        ],
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(50.0),
           child: Padding(

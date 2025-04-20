@@ -1,6 +1,11 @@
-# flutter_test_remote
+# Shop app with api
 
 A Flutter project showcasing a product listing application with modern UI and essential features.
+
+## Screenshots
+![shop.png](shop.png)
+
+https://github.com/user-attachments/assets/51a4e1bb-1a14-4a99-bfc8-f80831bb1315
 
 ## Features
 
@@ -21,7 +26,7 @@ A Flutter project showcasing a product listing application with modern UI and es
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mahabubulhasibshawon/Shop_App_with_Api.git
    cd flutter_test_remote
    ```
 
